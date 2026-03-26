@@ -21,6 +21,7 @@ cd gov-data-pipeline
 ## 2. Set Up Environment Variables
 
 Copy the example env file and fill in your values:
+
 bash/Powershell
 ```
 cp .env.example .env
@@ -43,6 +44,7 @@ DB_NAME=govdata
 ---
 
 ## 3. Start the Containers
+
 bash/Powershell
 ```
 docker-compose up --build
@@ -59,7 +61,7 @@ Wait for all containers to start. You should see:
 
 ## 4. Create Airflow Admin User
 
-In a new terminal(bash/Powershell):
+In a new terminal (bash/Powershell):
 ```
 docker exec -it govdata_airflow_webserver airflow users create \
     --username admin \
@@ -99,7 +101,7 @@ Connect via MySQL Workbench:
 - **Username:** `root`
 - **Password:** your password
 
-Or via terminal(bash/Powershell):
+Or via terminal (bash/Powershell):
 ```
 docker exec -it govdata_mysql mysql -u root -pyourpassword
 ```
@@ -113,13 +115,13 @@ SELECT COUNT(*) FROM fact_declined_deals;
 ---
 
 ## 8. Stop the Containers
+
 bash/Powershell
 ```
 docker-compose down
 ```
 
 To also delete all data volumes:
-bash/Powershell
 ```
 docker-compose down -v
 ```
