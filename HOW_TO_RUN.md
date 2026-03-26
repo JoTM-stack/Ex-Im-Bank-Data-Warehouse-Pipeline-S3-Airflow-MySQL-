@@ -12,7 +12,7 @@ Make sure you have the following installed:
 ## 1. Clone the Repository
 bash/Powershell
 ```
-git clone https://github.com/yourusername/gov-data-pipeline.git
+git clone https://github.com/JoTM-stack/Ex-Im-Bank-Data-Warehouse-Pipeline-S3-Airflow-MySQL-.git
 cd gov-data-pipeline
 ```
 
