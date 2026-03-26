@@ -77,6 +77,7 @@ Build an automated ETL pipeline that:
 6. Dimension tables populated
 7. Fact tables loaded with foreign keys
 8. Data available for analytics
+9. See [HOW_TO_RUN.md](HOW_TO_RUN.md) for full setup instructions.
 
 ---
 
