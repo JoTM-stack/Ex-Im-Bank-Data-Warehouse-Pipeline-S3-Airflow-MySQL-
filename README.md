@@ -46,7 +46,7 @@ Build an automated ETL pipeline that:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](Gov_Data/images/architecture.png)
 
 ---
 
